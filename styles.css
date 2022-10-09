@@ -1,0 +1,43 @@
+/*all p and h1 elements*/
+p, h1{
+	text-align: center;
+}
+
+body{
+	margin: 200px;
+	font: 20px sans-serif;
+	border: 5px solid black;
+}
+	
+
+.container{
+	background-color: grey; 
+	border: 2px solid ;
+	margin: 5px;
+}
+
+h2{
+	background-color: pink;
+	border: 2px solid;
+	width: fit-content;
+	padding: 10px;
+	margin: 1px;
+}
+
+h3{
+  background-color: darkred;
+  text-align: right;
+  border: 2px solid;
+  width: fit-content;
+  padding: 10px;
+  margin: 1px;
+}
+
+h4{
+	background-color: orange;
+	text-align: right;
+	border: 2px solid;
+	width: fit-content;
+	padding: 10px;
+	margin: 1px;
+}
