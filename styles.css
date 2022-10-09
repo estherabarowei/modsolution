@@ -2,7 +2,10 @@
 p, h1{
 	text-align: center;
 }
-
+*{
+	box-sizing: border-box;
+	max-width: 992px;
+}
 body{
 	margin: 200px;
 	font: 20px sans-serif;
