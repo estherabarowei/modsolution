@@ -1,0 +1,38 @@
+/*all p and h1 elements*/
+p, h1{
+	text-align: center;
+}
+
+body{
+	font: 20px sans-serif;
+	border: 3px solid black;
+	box-sizing: border-box;
+}
+
+.flex-container{
+	display: ruby-base-container;
+	background-color: grey;
+	border: 2px solid;
+	margin: 10px;
+}
+
+h2{
+	background-color: pink;
+	margin: 1px;
+	border: 2px solid;
+	text-align: right;
+}
+
+h3{
+  background-color: darkred;
+  margin: 1px;
+  border: 2px solid;
+  text-align: right;
+}
+
+h4{
+	background-color: orange;
+	margin: 1px;
+	border: 2px solid;
+	text-align: right;
+}
