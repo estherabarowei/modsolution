@@ -5,22 +5,25 @@ p, h1{
 
 body{
 	font: 20px sans-serif;
-	border: 3px solid black;
 	box-sizing: border-box;
+	border: 2px solid;
 }
 
 .flex-container{
-	display: ruby-base-container;
+	display: flex;
 	background-color: grey;
 	border: 2px solid;
 	margin: 10px;
+	flex-direction: column;
 }
+
 
 h2{
 	background-color: pink;
 	margin: 1px;
 	border: 2px solid;
-	text-align: right;
+	width: fit-content;
+	float: right;
 }
 
 h3{
@@ -28,6 +31,7 @@ h3{
   margin: 1px;
   border: 2px solid;
   text-align: right;
+  width: fit-content;
 }
 
 h4{
@@ -35,4 +39,5 @@ h4{
 	margin: 1px;
 	border: 2px solid;
 	text-align: right;
+	width: fit-content;
 }
